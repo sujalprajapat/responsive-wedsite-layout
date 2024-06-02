@@ -1,0 +1,43 @@
+.project{
+    margin: 100px 0px;
+    background-image: url('../img/project.jpg');
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+}
+.projectin {
+    background-color: black;
+    /* padding: 10px; */
+    /* height: 600px; */
+}
+.projectin .text{
+    background-color: white;
+    width: 95%;
+    height: 80%;
+    margin: 10px;
+    margin-top: 55px;
+    padding: 20px;
+}
+.project .text_in {
+    /* padding: 50px; */
+    width: 50%;
+    height: 100px;
+}
+.project ul li{
+    padding: 5px 7px;
+    margin: 0px 4px;
+    border: 1px black solid;
+}
+@media (max-width:996px){
+    .project{
+        position: relative;
+        /* height: 1200px; */
+    }
+    .projectin{
+        position: absolute;
+        top: 100%;
+    }
+    .footer1{
+        margin-top: 600px !important;
+    }
+}

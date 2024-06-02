@@ -1,0 +1,10 @@
+a{
+    color: black;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 30px;
+    /* padding: -30px; */
+}
